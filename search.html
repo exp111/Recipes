@@ -1,0 +1,19 @@
+---
+layout: page
+title: Suche
+---
+
+<div>
+  <form action="/search" method="get"> 
+    <input type="text" id="search-box" name="query" placeholder="Suche...">
+    <input type="submit" value="search">
+  </form>
+  <ul id="search-results" style="padding-inline-start:0;">
+    <h2>Kategorien</h2>
+    {% for tag in site.tags %}
+    <li class="tags"> 
+      <a href="{{ site.baseurl }}/{{ tag[0] }}">{{ tag[0] | replace: '-', ' ' | capitalize }} <span>({{ tag[1].size }})</span></a> 
+    </li>
+    {% endfor %}
+  </ul> 
+</div>
