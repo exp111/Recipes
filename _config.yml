@@ -31,8 +31,14 @@ github_username:  jekyll
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+
+nav:
+  - title: About
+    url: /
+  - title: Blog
+    url: /blog
+  - title: Photos
+    url: /photos
 
 # only show post title in url
 permalink: /:title
