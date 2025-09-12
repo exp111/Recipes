@@ -52,6 +52,8 @@
 </ol>
 
 
+
+
 <script>
 function updateZutaten() {
   const amount = parseFloat(document.getElementById("amount").value) || 1;
@@ -62,8 +64,7 @@ function updateZutaten() {
     if (!base) {
       return;
     }
-    const value = (base * amount).toFixed(1).replace(/[.,]0$/, "");
-    el.textContent = value;
+    el.textContent = (base * amount).toFixed(1).replace(/[.,]0$/, "");
   });
 }
 updateZutaten()

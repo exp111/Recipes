@@ -55,7 +55,9 @@
   <li>Die One Pot Tortellini mit Salz und Pfeffer abschmecken und mit geriebenem Parmesan servieren.</li>
 </ol>
 
-<p><a href="https://schaetzeausmeinerkueche.de/2023/10/24/one-pot-tortellini-in-tomatensauce-mit-spinat/">Quelle</a></p>
+
+
+<a href="https://schaetzeausmeinerkueche.de/2023/10/24/one-pot-tortellini-in-tomatensauce-mit-spinat/">Quelle</a>
 
 
 <script>
@@ -68,8 +70,7 @@ function updateZutaten() {
     if (!base) {
       return;
     }
-    const value = (base * amount).toFixed(1).replace(/[.,]0$/, "");
-    el.textContent = value;
+    el.textContent = (base * amount).toFixed(1).replace(/[.,]0$/, "");
   });
 }
 updateZutaten()

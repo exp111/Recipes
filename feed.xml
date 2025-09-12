@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/Recipes/feed.xml" rel="self" type="application/atom+xml" /><link href="/Recipes/" rel="alternate" type="text/html" /><updated>2025-09-12T11:45:07+00:00</updated><id>/Recipes/feed.xml</id><title type="html">Rezeptebuch</title><subtitle>Ich mag Essen</subtitle><author><name>Exp</name></author><entry><title type="html">Djuvec</title><link href="/Recipes/djuvec" rel="alternate" type="text/html" title="Djuvec" /><published>2025-09-12T11:45:07+00:00</published><updated>2025-09-12T11:45:07+00:00</updated><id>/Recipes/djuvec</id><content type="html" xml:base="/Recipes/djuvec"><![CDATA[<h1 id="zutaten">Zutaten:</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/Recipes/feed.xml" rel="self" type="application/atom+xml" /><link href="/Recipes/" rel="alternate" type="text/html" /><updated>2025-09-12T12:03:23+00:00</updated><id>/Recipes/feed.xml</id><title type="html">Rezeptebuch</title><subtitle>Ich mag Essen</subtitle><author><name>Exp</name></author><entry><title type="html">Cannoli Füllung</title><link href="/Recipes/cannoli" rel="alternate" type="text/html" title="Cannoli Füllung" /><published>2025-09-12T12:03:23+00:00</published><updated>2025-09-12T12:03:23+00:00</updated><id>/Recipes/cannoli</id><content type="html" xml:base="/Recipes/cannoli"><![CDATA[<h1 id="zutaten">Zutaten:</h1>
+<ul>
+  <li><span base="50"></span>g Ricotta</li>
+  <li><span base="8"></span>g Zucker</li>
+  <li>Schokostückchen</li>
+  <li>Cannoliröllchen oder Eistüten</li>
+  <li>1 TL Vanille(zucker)</li>
+  <li>0.5 TL Zimt</li>
+</ul>
+
+<h1 id="rezept">Rezept</h1>
+<ol>
+  <li>Zucker in den Topf geben und 20 Sekunden mit Stufe 9 zu Puderzucker mahlen</li>
+  <li><span base="50"></span>g Ricotta, 1 TL Vanille und 0.5 TL Zimt hinzugeben and rühren bis es glatt ist (~30 Sekunden Stufe 5)</li>
+  <li>Füge Schokostückchen hinzu and mische für ein paar Sekunden bei Stufe 4 im Linkslauf</li>
+  <li>Fülle die Masse in einen Spritzbeutel und fülle es in die Formen</li>
+</ol>]]></content><author><name>Exp</name></author><category term="dessert" /><category term="thermomix" /><summary type="html"><![CDATA[Zutaten: g Ricotta g Zucker Schokostückchen Cannoliröllchen oder Eistüten 1 TL Vanille(zucker) 0.5 TL Zimt]]></summary></entry><entry><title type="html">Djuvec</title><link href="/Recipes/djuvec" rel="alternate" type="text/html" title="Djuvec" /><published>2025-09-12T12:03:23+00:00</published><updated>2025-09-12T12:03:23+00:00</updated><id>/Recipes/djuvec</id><content type="html" xml:base="/Recipes/djuvec"><![CDATA[<h1 id="zutaten">Zutaten:</h1>
 <ul>
   <li><span base="0.75"></span> Tassen Reis</li>
   <li><span base="125"></span>g passierte Tomaten (alternativ Wasser und Tomatenmark)</li>
@@ -14,12 +30,12 @@
 <h1 id="rezept">Rezept</h1>
 <ol>
   <li>1 Zwiebel, 1 Knoblauchzehe und <span base="1"></span> Paprikas in den Thermomix bis die Stücke passend groß sind</li>
-  <li>Ein bisschen Öl dazugeben und 7 Minuten mit Varoma Stufe 1</li>
+  <li>Ein bisschen Öl dazugeben und 7 Minuten bei Varoma Stufe 1</li>
   <li><span base="0.75"></span> Tassen Reis, <span base="125"></span>g passierte Tomaten, 3 TL Ajvar und 1 TL Sambal Olek dazugeben</li>
-  <li>20 Minuten mit Varoma Stufe 1 einstellen</li>
+  <li>20 Minuten bei Varoma Stufe 1 einstellen</li>
   <li>In den letzten 8 Minuten 1 Dose Erben Möhrchen dazugeben</li>
   <li>Am Ende kurz abschmecken mit Gemüsebrühe, Petersilie und Gewürzen</li>
-</ol>]]></content><author><name>Exp</name></author><category term="reis" /><category term="thermomix" /><summary type="html"><![CDATA[Zutaten: Tassen Reis g passierte Tomaten (alternativ Wasser und Tomatenmark) Paprikas 1 Zwiebel 1 Knoblauchzehe 1 Dose Erbsen Möhrchen 3 TL Ajvar 1 TL Sambal Olek Petersilie]]></summary></entry><entry><title type="html">Feta Linguine</title><link href="/Recipes/feta-linguine" rel="alternate" type="text/html" title="Feta Linguine" /><published>2025-09-12T11:45:07+00:00</published><updated>2025-09-12T11:45:07+00:00</updated><id>/Recipes/feta-linguine</id><content type="html" xml:base="/Recipes/feta-linguine"><![CDATA[<h1 id="zutaten">Zutaten:</h1>
+</ol>]]></content><author><name>Exp</name></author><category term="reis" /><category term="thermomix" /><summary type="html"><![CDATA[Zutaten: Tassen Reis g passierte Tomaten (alternativ Wasser und Tomatenmark) Paprikas 1 Zwiebel 1 Knoblauchzehe 1 Dose Erbsen Möhrchen 3 TL Ajvar 1 TL Sambal Olek Petersilie]]></summary></entry><entry><title type="html">Feta Linguine</title><link href="/Recipes/feta-linguine" rel="alternate" type="text/html" title="Feta Linguine" /><published>2025-09-12T12:03:23+00:00</published><updated>2025-09-12T12:03:23+00:00</updated><id>/Recipes/feta-linguine</id><content type="html" xml:base="/Recipes/feta-linguine"><![CDATA[<h1 id="zutaten">Zutaten:</h1>
 <ul>
   <li><span base="125"></span>g Linguine</li>
   <li>~<span base="125"></span>g Feta</li>
@@ -36,7 +52,7 @@
   <li>Öl drübergießen</li>
   <li>Mit Wasser befüllen bis die Linguine bedeckt sind</li>
   <li>Bei 200° Umluft in den Backofen bis die Nudeln durch sind</li>
-</ol>]]></content><author><name>Exp</name></author><category term="nudeln" /><category term="backofen" /><summary type="html"><![CDATA[Zutaten: g Linguine ~g Feta g Spinat Gemüsebrühe Gewürze]]></summary></entry><entry><title type="html">One Pot Tortellini</title><link href="/Recipes/one-pot-tortellini" rel="alternate" type="text/html" title="One Pot Tortellini" /><published>2025-09-12T11:45:07+00:00</published><updated>2025-09-12T11:45:07+00:00</updated><id>/Recipes/one-pot-tortellini</id><content type="html" xml:base="/Recipes/one-pot-tortellini"><![CDATA[<h1 id="zutaten">Zutaten:</h1>
+</ol>]]></content><author><name>Exp</name></author><category term="nudeln" /><category term="backofen" /><summary type="html"><![CDATA[Zutaten: g Linguine ~g Feta g Spinat Gemüsebrühe Gewürze]]></summary></entry><entry><title type="html">One Pot Tortellini</title><link href="/Recipes/one-pot-tortellini" rel="alternate" type="text/html" title="One Pot Tortellini" /><published>2025-09-12T12:03:23+00:00</published><updated>2025-09-12T12:03:23+00:00</updated><id>/Recipes/one-pot-tortellini</id><content type="html" xml:base="/Recipes/one-pot-tortellini"><![CDATA[<h1 id="zutaten">Zutaten:</h1>
 <ul>
   <li><span base="125"></span>g passierte Tomaten</li>
   <li><span base="62.5"></span>ml Gemüsebrühe</li>
@@ -57,6 +73,4 @@
   <li><span base="125"></span>g Passierte Tomaten, <span base="62.5"></span>ml Gemüsebrühe und <span base="50"></span>ml Sahne dazugeben und alles gut verrühren. Dann <span base="125"></span>g Tortellini dazugeben und ca. 10-15 Min. unter Rühren bei mittlerer Hitze köcheln lassen.</li>
   <li>Zum Schluss den gewaschenen und gut abgetropften Babyspinat (<span base="50"></span>g) dazugeben und ca. 5 Min. köcheln lassen, bis der Spinat komplett zusammengefallen ist.</li>
   <li>Die One Pot Tortellini mit Salz und Pfeffer abschmecken und mit geriebenem Parmesan servieren.</li>
-</ol>
-
-<p><a href="https://schaetzeausmeinerkueche.de/2023/10/24/one-pot-tortellini-in-tomatensauce-mit-spinat/">Quelle</a></p>]]></content><author><name>Exp</name></author><category term="nudeln" /><category term="topf" /><summary type="html"><![CDATA[Zutaten: g passierte Tomaten ml Gemüsebrühe ml Sahne g Tortellini g Babyspinat 1 Zwiebel 2 Knoblauchzehen 2 EL Butterschmalz (oder alternativ Butter/Öl) 2 TL Pizzagewürz 0.5 TL Paprikapulver]]></summary></entry></feed>
+</ol>]]></content><author><name>Exp</name></author><category term="nudeln" /><category term="topf" /><summary type="html"><![CDATA[Zutaten: g passierte Tomaten ml Gemüsebrühe ml Sahne g Tortellini g Babyspinat 1 Zwiebel 2 Knoblauchzehen 2 EL Butterschmalz (oder alternativ Butter/Öl) 2 TL Pizzagewürz 0.5 TL Paprikapulver]]></summary></entry></feed>
