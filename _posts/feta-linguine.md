@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title:  Feta Linguine
+title: Feta Linguine
 tags:
   - nudeln
   - backofen
