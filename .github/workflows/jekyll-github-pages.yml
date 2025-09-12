@@ -7,9 +7,11 @@ on:
 
 jobs:
   jekyll:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
-      - name: 📂 setup
+      - name: Checkout
         uses: actions/checkout@v2
 
         # include the lines below if you are using jekyll-last-modified-at
@@ -17,21 +19,17 @@ jobs:
         # however this may be very slow for large repositories!
         # with:
         # fetch-depth: '0'
-      - name: 💎 setup ruby
+      - name: Setup ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.4
 
-      - name: 🔨 install dependencies & build site
+      - name: Install & Build
         uses: limjh16/jekyll-action-ts@v2
         with:
           enable_cache: true
 
-      - name: 🚀 deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.6.1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-          # if the repo you are deploying to is <username>.github.io, uncomment the line below.
-          # if you are including the line below, make sure your source files are NOT in the "main" branch:
-          # publish_branch: main
+          FOLDER: ./_site
