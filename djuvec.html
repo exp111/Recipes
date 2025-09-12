@@ -25,17 +25,53 @@
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Backofen</h1>
+    <h1 class="post-title">Djuvec</h1>
   </header>
 
   <div class="post-content">
-    <ul>
-  
-  <li>
-    <a href="/Recipes/feta-linguine">Feta Linguine</a>
-  </li>
-  
+    <label for="amount">Portionen:</label>
+<input type="number" id="amount" value="2" min="1" onchange="updateZutaten()">
+
+<h1 id="zutaten">Zutaten:</h1>
+<ul>
+  <li><span base="0.75"></span> Tassen Reis</li>
+  <li><span base="125"></span>g passierte Tomaten (alternativ Wasser und Tomatenmark)</li>
+  <li><span base="1"></span> Paprikas</li>
+  <li>1 Zwiebel</li>
+  <li>1 Knoblauchzehe</li>
+  <li>1 Dose Erbsen Möhrchen</li>
+  <li>3 TL Ajvar</li>
+  <li>1 TL Sambal Olek</li>
+  <li>Petersilie</li>
 </ul>
+
+<h1 id="rezept">Rezept</h1>
+<ol>
+  <li>1 Zwiebel, 1 Knoblauchzehe und <span base="1"></span> Paprikas in den Thermomix bis die Stücke passend groß sind</li>
+  <li>Ein bisschen Öl dazugeben und 7 Minuten mit Varoma Stufe 1</li>
+  <li><span base="0.75"></span> Tassen Reis, <span base="125"></span>g passierte Tomaten, 3 TL Ajvar und 1 TL Sambal Olek dazugeben</li>
+  <li>20 Minuten mit Varoma Stufe 1 einstellen</li>
+  <li>In den letzten 8 Minuten 1 Dose Erben Möhrchen dazugeben</li>
+  <li>Am Ende kurz abschmecken mit Gemüsebrühe, Petersilie und Gewürzen</li>
+</ol>
+
+
+<script>
+function updateZutaten() {
+  const amount = parseFloat(document.getElementById("amount").value) || 1;
+  const elements = document.querySelectorAll("span[base]");
+
+  elements.forEach(el => {
+    const base = parseFloat(el.getAttribute("base"));
+    if (!base) {
+      return;
+    }
+    const value = (base * amount).toFixed(1).replace(/[.,]0$/, "");
+    el.textContent = value;
+  });
+}
+updateZutaten()
+</script>
   </div>
 
 </article>

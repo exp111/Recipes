@@ -2,24 +2,9 @@
 <html lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Suche | Rezeptebuch</title>
-<meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="Suche" />
-<meta name="author" content="Exp" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Ich mag Essen" />
-<meta property="og:description" content="Ich mag Essen" />
-<link rel="canonical" href="/Recipes/search" />
-<meta property="og:url" content="/Recipes/search" />
-<meta property="og:site_name" content="Rezeptebuch" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Suche" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Exp"},"description":"Ich mag Essen","headline":"Suche","url":"/Recipes/search"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/Recipes/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/Recipes/feed.xml" title="Rezeptebuch" /></head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/Recipes/assets/main.css">
+</head>
 <body><header class="site-header" role="banner">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/Recipes/">Rezeptebuch</a><nav class="site-nav">
@@ -45,23 +30,45 @@
 
   <div class="post-content">
     <div>
-  <form action="/Recipes/search" method="get"> 
-    <input type="text" id="search-box" name="query" placeholder="Suche...">
-    <input type="submit" value="Suchen">
-  </form>
+  <input type="text" id="search-input" name="query" placeholder="Suche...">
+  <ul id="search-results">
+
+  </ul>
   <h2>Kategorien</h2>
-  <ul id="search-results" style="padding-inline-start:0;">
+  <ul>
     
     <li class="tags"> 
-      <a href="/Recipes/nudeln">Nudeln <span>(1)</span></a> 
+      <a href="/Recipes/reis">Reis <span>(1)</span></a> 
+    </li>
+    
+    <li class="tags"> 
+      <a href="/Recipes/thermomix">Thermomix <span>(1)</span></a> 
+    </li>
+    
+    <li class="tags"> 
+      <a href="/Recipes/nudeln">Nudeln <span>(2)</span></a> 
     </li>
     
     <li class="tags"> 
       <a href="/Recipes/backofen">Backofen <span>(1)</span></a> 
     </li>
     
+    <li class="tags"> 
+      <a href="/Recipes/topf">Topf <span>(1)</span></a> 
+    </li>
+    
   </ul> 
 </div>
+
+<script src="assets/js/search.js" type="text/javascript"></script>
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('search-results'),
+  json: '/Recipes/assets/search.json',
+  searchResultTemplate: '<li><a href="/Recipes/{url}">{title}</a></li>',
+})
+</script>
   </div>
 
 </article>
