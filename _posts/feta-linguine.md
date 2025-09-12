@@ -10,7 +10,6 @@ tags:
 - <span base="125"></span>g Linguine
 - ~<span base="125"></span>g Feta
 - <span base="75"></span>g Spinat
-- Etwas Öl
 - Gemüsebrühe
 - Gewürze
 
