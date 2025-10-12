@@ -47,8 +47,13 @@
         padding: .375rem .75rem;
         border: var(--border-width) #495057 solid;
     }
+    /* Remove border width to not have double width */
     .amount-group > :not(:first-child) {
-        margin-left: calc(-1 * var(--border-width));
+        border-left-width: 0;
+    }
+    /* Stop ios from rounding input end */
+    .amount-group .amount-input {
+        border-radius: 0;
     }
     .amount-group button {
         cursor: pointer;
