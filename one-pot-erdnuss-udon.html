@@ -25,25 +25,58 @@
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Thermomix</h1>
+    <h1 class="post-title">One Pot Erdnuss Udon</h1>
   </header>
 
   <div class="post-content">
-    <ul>
-  
-  <li>
-    <a href="/Recipes/strawberry-brownies">Erdbeer Brownies mit Schoko-Ganache</a>
-  </li>
-  
-  <li>
-    <a href="/Recipes/djuvec">Djuvec</a>
-  </li>
-  
-  <li>
-    <a href="/Recipes/cannoli">Cannoli Füllung</a>
-  </li>
-  
+    <label for="amount">Portionen:</label>
+<input type="number" id="amount" value="2" min="1" onchange="updateZutaten()">
+
+<h1 id="zutaten">Zutaten:</h1>
+<ul>
+  <li><span base="125"></span>g Udon Nudeln (vorgekocht oder frisch)</li>
+  <li><span base="150"></span>ml Kokosmilch</li>
+  <li><span base="50"></span>ml Wasser</li>
+  <li><span base="50"></span>g Brokkoli</li>
+  <li><span base="50"></span>g Blattspinat</li>
+  <li><span base="0.5"></span> Möhren</li>
+  <li><span base="0.5"></span> Lauchzwiebeln</li>
+  <li>1 EL Gochujang (koreanische Chilipaste)</li>
+  <li>1 EL Ahornsirup/Honig</li>
+  <li>1 EL Erdnussbutter</li>
+  <li>2 EL Sojasauce</li>
+  <li>Sojasprossen</li>
 </ul>
+
+<h1 id="rezept">Rezept</h1>
+<ol>
+  <li><span base="125"></span>g Udon Nudeln in eine große Pfanne oder einen Wok geben.</li>
+  <li><span base="0.5"></span> Möhren in Streifen hobeln und <span base="0.5"></span> Lauchzwiebeln in Ringe schneiden</li>
+  <li><span base="0.5"></span> Möhren, <span base="50"></span>g Brokkoli, <span base="50"></span>g Blattspinat, <span base="0.5"></span> Lauchzwiebeln und Sojasprossen darüber verteilen.</li>
+  <li>Für die Sauce 1 EL Gochujang, 1 EL Ahornsirup/Honig, 1 EL Erdnussbutter, 2 EL Sojasauce, <span base="150"></span>ml Kokosmilch und <span base="50"></span>ml Wasser verrühren und über das Gemüse gießen.</li>
+  <li>Deckel auf den Topf/die Pfanne setzen und bei mittlerer Hitze alles ca. 10 – 12 Minuten einköcheln lassen, bis das Gemüse bissfest und die Sauce cremig ist.</li>
+</ol>
+
+
+
+<a href="https://www.instagram.com/reel/DJR2W31Ivej/?igsh=MXEyNnJsd3dkN29lcA==">Quelle</a>
+
+
+<script>
+function updateZutaten() {
+  const amount = parseFloat(document.getElementById("amount").value) || 1;
+  const elements = document.querySelectorAll("span[base]");
+
+  elements.forEach(el => {
+    const base = parseFloat(el.getAttribute("base"));
+    if (!base) {
+      return;
+    }
+    el.textContent = (base * amount).toFixed(1).replace(/[.,]0$/, "");
+  });
+}
+updateZutaten()
+</script>
   </div>
 
 </article>

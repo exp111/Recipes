@@ -3,9 +3,9 @@ Rezeptebuch
 # TODO:
 - Search doesn't work
 - More recipes
-- Implement ingredient amount as jekyll tag or make it easier
-- randomize (in tag)
+- randomize (in tags view)
 - images
+- use back references for ingredients so you don't have to readd value after first mention
 
 ## Inspiration:
 - https://github.com/mrinalcs/mrinalcs.github.io

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/Recipes/assets/main.css">
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/Recipes/">Rezeptebuch</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/Recipes/search">Suche</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Erdbeer Brownies mit Schoko-Ganache</h1>
+  </header>
+
+  <div class="post-content">
+    <label for="amount">Portionen:</label>
+<input type="number" id="amount" value="16" min="1" onchange="updateZutaten()">
+
+<h1 id="zutaten">Zutaten:</h1>
+<h2 id="brownies">Brownies</h2>
+<ul>
+  <li><span base="11.25"></span>g Butter</li>
+  <li><span base="5.625"></span>g Backkakao</li>
+  <li><span base="15.625"></span>g Zucker</li>
+  <li><span base="3.75"></span>g Weizenmehl (Type 405)</li>
+  <li><span base="0.1875"></span> Eier, Größe M</li>
+  <li>1,5TL Vanilleextrakt</li>
+  <li>0,5 TL Salz</li>
+</ul>
+
+<h2 id="ganache-und-topping">Ganache und Topping:</h2>
+<ul>
+  <li><span base="18.75"></span>g Erdbeeren, frisch</li>
+  <li><span base="20"></span>g Zartbitterschokolade</li>
+  <li><span base="11.25"></span>g Sahne, 30 % Fett</li>
+</ul>
+
+<h1 id="rezept">Rezept</h1>
+<ol>
+  <li>Butter in den Thermomix 3Min/60°/stufe1 bis alles flüssig ist<br />
+ <strong>Achtung</strong>: Butter darf nicht zu heiß sein, später lieber noch mal abkühlen lassen</li>
+  <li>Nun Backkakao dazu, Stufe 1</li>
+  <li>Eier nach und nach dazu mit dem Vanilleextrakt, Stufe 2</li>
+  <li>Das alles weiter rühren lassen. In der Zeit Mehl Zucker und Salz wiegen und alles hinzufügen und auf Stufe 5 dann 6 richtig durchmischen lassen bis ein homogener Teig ohne Stückchen entsteht.</li>
+  <li>In die Backform mit Backpapier bei 160° ober unter Hitze ab 25 min mal rein picken alle 5 min. Max 35 min drin lassen.</li>
+  <li>Für die Ganache die Zartbitterschokolade klein hacken und mit der Sahne in einem beschichteten Topf unter Rühren bei niedriger Hitze schmelzen. Wenn eine glatte Masse entstanden ist, den Topf vom Herd nehmen, abkühlen lassen und dabei ab und zu umrühren bis die Ganache eine streichbare Konsistenz bekommt.<br />
+ <strong>TIPP</strong>: Falls die Ganache zu fest wird, weil sie zu sehr abgekühlt ist, kann man sie auf dem Herd einfach wieder etwas erwärmen und erneut abkühlen lassen, bis sie die richtige Konsistenz zum Verstreichen bekommt.</li>
+  <li>Für das Topping die Erdbeeren waschen, vom Strunk befreien, halbieren und mit der Schnittseite nach unten auf dem Brownie verteilen.<br />
+ <strong>TIPP</strong>: Die Erdbeeren halten besser auf dem Kuchen, wenn man ihn vorher mit einer dünnen Schicht Ganache bestreicht.</li>
+  <li>Zuletzt die Ganache vorsichtig über den Erdbeeren verteilen und gleichmäßig verstreichen.</li>
+</ol>
+
+
+
+<a href="https://schaetzeausmeinerkueche.de/2023/10/24/one-pot-tortellini-in-tomatensauce-mit-spinat/">Quelle</a>
+
+
+<script>
+function updateZutaten() {
+  const amount = parseFloat(document.getElementById("amount").value) || 1;
+  const elements = document.querySelectorAll("span[base]");
+
+  elements.forEach(el => {
+    const base = parseFloat(el.getAttribute("base"));
+    if (!base) {
+      return;
+    }
+    el.textContent = (base * amount).toFixed(1).replace(/[.,]0$/, "");
+  });
+}
+updateZutaten()
+</script>
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/Recipes/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Rezeptebuch</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-3">
+        <p>Ich mag Essen</p>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <a href="https://github.com/exp111">
+          Github 
+          <svg class="svg-icon" style="vertical-align: sub">
+            <use xlink:href="/Recipes/assets/minima-social-icons.svg#github"></use>
+          </svg>
+        </a>
+      </div>
+      
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
