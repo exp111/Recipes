@@ -4,6 +4,7 @@ title: Djuvec
 tags:
   - reis
   - thermomix
+portions: 2
 ---
 
 # Zutaten:

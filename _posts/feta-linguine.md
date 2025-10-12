@@ -4,6 +4,7 @@ title: Feta Linguine
 tags:
   - nudeln
   - backofen
+portions: 2
 ---
 
 # Zutaten:

@@ -4,6 +4,7 @@ title: One Pot Tortellini
 tags:
   - nudeln
   - topf
+portions: 2
 source: https://schaetzeausmeinerkueche.de/2023/10/24/one-pot-tortellini-in-tomatensauce-mit-spinat/
 ---
 
