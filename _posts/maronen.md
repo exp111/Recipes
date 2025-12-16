@@ -4,7 +4,7 @@ title: Maronen
 tags:
   - dessert
   - airfryer
-portions: 5
+portions: 10
 source: https://www.instagram.com/reel/DP_VZ3uDIIE/?igsh=MW9mbDMzaXBqOHl0Zw==
 ---
 
