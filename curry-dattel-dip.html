@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/Recipes/assets/main.css">
+  <title>Rezeptebuch  | Curry Dattel Dip </title>
+
+  <link rel="icon" type="image/png" href="/Recipes/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/Recipes/favicon.svg" />
+  <link rel="shortcut icon" href="/Recipes/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/Recipes/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="Rezeptbuch" />
+  <link rel="manifest" href="/Recipes/site.webmanifest" />
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/Recipes/">Rezeptebuch</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/Recipes/search">Suche</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Curry Dattel Dip</h1>
+  </header>
+
+  <div class="post-content">
+    <style>
+    .amount-group {
+        --border-width: 1px;
+        --border-radius: 0.375rem;
+        display: flex;
+    }
+    .amount-group > * {
+        padding: .375rem .75rem;
+        border: var(--border-width) #495057 solid;
+    }
+    /* Remove border width to not have double width */
+    .amount-group > :not(:first-child) {
+        border-left-width: 0;
+    }
+    /* Stop ios from rounding input end */
+    .amount-group .amount-input {
+        border-radius: 0;
+    }
+    .amount-group button {
+        cursor: pointer;
+        font-family: monospace;
+        font-weight: bold;
+    }
+    /* Style buttons */
+    .amount-group .amount-plus {
+        color: #DEE2E6;
+        background-color: #198754;
+    }
+    .amount-group .amount-minus {
+        color: #DEE2E6;
+        background-color: #DC3545;
+    }
+    /* Make last/first child rounded */
+    .amount-group :first-child {
+        border-top-left-radius: var(--border-radius);
+        border-bottom-left-radius: var(--border-radius);
+    }
+    .amount-group :last-child {
+        border-top-right-radius: var(--border-radius);
+        border-bottom-right-radius: var(--border-radius);
+    }
+</style>
+<script>
+    function adjustInput(id, value) {
+        let el = document.getElementById(id);
+        // change value
+        el.value = Number(el.value) + value;
+        // dispath change event
+        el.dispatchEvent(new Event('change'));
+    }
+</script>
+<label for="amount">Portionen:</label>
+<div class="amount-group">
+    <input type="number" class="amount-input" id="amount" value="12" min="1" onchange="updateZutaten()">
+    <button class="amount-plus" onclick="adjustInput('amount', 1)">+</button>
+    <button class="amount-minus" onclick="adjustInput('amount', -1)">-</button>
+</div>
+
+<h1 id="zutaten">Zutaten:</h1>
+<ul>
+  <li><span base="0.75"></span> Tassen Reis</li>
+  <li><span base="125"></span>g passierte Tomaten (alternativ Wasser und Tomatenmark)</li>
+  <li><span base="1"></span> Paprikas</li>
+  <li>1 Zwiebel</li>
+  <li>1 Knoblauchzehe</li>
+  <li>1 Dose Erbsen Möhrchen</li>
+  <li>3 TL Ajvar</li>
+  <li>1 TL Sambal Olek</li>
+  <li>Petersilie</li>
+</ul>
+
+<h1 id="rezept">Rezept</h1>
+<ol>
+  <li>1 Zwiebel, 1 Knoblauchzehe und <span base="1"></span> Paprikas in den Thermomix bis die Stücke passend groß sind</li>
+  <li>Ein bisschen Öl dazugeben und 7 Minuten bei Varoma Stufe 1</li>
+  <li><span base="0.75"></span> Tassen Reis, <span base="0.5"></span> Tassen Wasser, <span base="125"></span>g passierte Tomaten, 3 TL Ajvar und 1 TL Sambal Olek dazugeben</li>
+  <li>20 Minuten bei Varoma Stufe 1 Linkslauf einstellen</li>
+  <li>In den letzten 8 Minuten 1 Dose Erben Möhrchen dazugeben</li>
+  <li>Am Ende kurz abschmecken mit Gemüsebrühe, Petersilie und Gewürzen</li>
+</ol>
+
+
+
+<a href="https://cookidoo.de/recipes/recipe/de-DE/r108432">Quelle</a>
+
+
+<script>
+function updateZutaten() {
+  const amount = parseFloat(document.getElementById("amount").value) ?? 1;
+  const elements = document.querySelectorAll("span[base]");
+
+  elements.forEach(el => {
+    const base = parseFloat(el.getAttribute("base"));
+    if (!base) {
+      return;
+    }
+    el.textContent = (base * amount).toFixed(1).replace(/[.,]0$/, "");
+  });
+}
+updateZutaten()
+</script>
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/Recipes/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Rezeptebuch</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-3">
+        <p>Ich mag Essen</p>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <a href="https://github.com/exp111/Recipes">
+          Github 
+          <svg class="svg-icon" style="vertical-align: sub">
+            <use xlink:href="/Recipes/assets/minima-social-icons.svg#github"></use>
+          </svg>
+        </a>
+      </div>
+      
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
